@@ -1,0 +1,1576 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MySodexo – Ofertas solo a los usuarios de cheques y tarjetas de Sodexo</title>
+    <meta name="description" content="Consulta saldos y movimientos de tu tarjeta, reserva tu restaurante favorito con las mejores promociones, ofertas exclusivas en primeras marcas, descuentos del 80% en tecnología, deportes, salud y belleza, ocio, etc. Premios mensuales y noticias sobre motivación, gastronomía, vida saludable ¡y mucho más! Compártelo con tus amigos">
+    <meta name="keywords" content="saldos y movimientos de tarjeta restaurante, tarjeta transporte, reserva online restaurantes favoritos, ofertas exclusivas, descuentos, promociones, premios, concursos, usuarios cheque de Sodexo, usuarios tarjeta de Sodexo">
+    <meta property="og:title" content="MySodexo">
+    <meta property="og:description" content="Consulta saldos y movimientos de tu tarjeta, reserva tu restaurante favorito con las mejores promociones, ofertas exclusivas en primeras marcas, descuentos del 80% en tecnología, deportes, salud y belleza, ocio, etc. Premios mensuales y noticias sobre motivación, gastronomía, vida saludable ¡y mucho más! Compártelo con tus amigos">
+    <meta property="og:url" content="http://www.mysodexo.es/">
+    <meta property="og:image" content="http://www.mysodexo.es//imgs/my-sodexo@2x.png">
+    <link href="http://www.mysodexo.es/imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- CSS -->
+    <link href="http://www.mysodexo.es/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/mysdx.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/mysdx-buttons.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/snap.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/js/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/jquery.nouislider.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/simplePagination.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/infobox.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/addtohomescreen.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/awesome-bootstrap-checkbox.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/css/jquery-ui/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="http://www.mysodexo.es/fonts/flaticon.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700|Roboto:700,400" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="http://www.mysodexo.es/imgs/icons/favicon.ico">
+    <!-- Android conf -->
+    <link rel="manifest" href="http://www.mysodexo.es/conf/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="http://www.mysodexo.es/imgs/icons/launcher-icon-4x.png">
+    <!-- iOS conf -->
+    <link rel="apple-touch-icon" sizes="58x58" href="http://www.mysodexo.es/imgs/icons/apple-touch-icon-58x58.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://www.mysodexo.es/imgs/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://www.mysodexo.es/imgs/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://www.mysodexo.es/imgs/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://www.mysodexo.es/imgs/icons/apple-touch-icon-180x180.png">
+    <meta name="apple-mobile-web-app-title" content="MySodexo">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://www.mysodexo.es/js/html5shiv.min.js"></script>
+    <script src="http://www.mysodexo.es/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Menú móvil -->
+<div class="menu-box hidden-md hidden-lg">
+    <div class="main-menu main-menu-left">
+        <div id="menu-mobile">
+            <ul>
+                <li><a href="http://www.mysodexo.es/inicio">Inicio</a></li>
+                <li><a href="http://www.mysodexo.es/restaurantes">Restaurantes</a></li>
+                <!--<li><a href="http://myoutlet.grupeo.es/?c=28685" class="outlet" name="Menu superior" target="_blank">MyOutlet</a></li>-->
+                <li><a href="http://www.mysodexo.es/noticias">Noticias</a></li>
+                <li><a href="http://www.mysodexo.es/concursos">Concursos</a></li>
+                <li><a href="http://www.mysodexo.es/noticias/promociones">Promociones</a></li>
+                <li class="dropdown"> <a href="#" role="button" aria-expanded="false" data-toggle="dropdown"> Mis servicios <span class="caret"></span> </a>
+                    <ul class="submenu-mobile dropdown-menu" role="menu" id="submenu-mis-servicios-mobile">
+                        <li><a href="http://www.mysodexo.es/mis-servicios-tarjetas">Mis tarjetas</a></li>
+                        <li><a href="http://www.mysodexo.es/mis-servicios-ayuda">Ayuda y consultas</a></li>
+                    </ul> </li>
+                <li> <a href="http://www.mysodexo.es/descuentos-exclusivos">Descuentos exclusivos</a> </li>
+                <li> <a href="http://www.mysodexo.es/eventos">Eventos</a> </li>
+                <li> <a href="http://www.mysodexo.es/mensajes">Mensajes</a> </li>
+                <li> <a href="http://www.mysodexo.es/notificaciones">Notificaciones</a> </li>
+                <li class="dropdown"> <a href="#" role="button" aria-expanded="false" data-toggle="dropdown"> Mi cuenta <span class="caret"></span> </a>
+                    <ul role="menu" class="submenu-mobile dropdown-menu" id="submenu-mi-cuenta-mobile">
+                        <li><a href="http://www.mysodexo.es/mis-amigos">Mis amigos</a></li>
+                        <li><a href="http://www.mysodexo.es/editar-mi-perfil">Mi perfil</a></li>
+                        <li><a href="http://www.mysodexo.es/logout">Cerrar sesión</a></li>
+                    </ul> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="main-content" class="snap-content">
+    <div id="menu-dragger" class="hidden-md hidden-lg"></div>
+    <!-- structure (page) -->
+    <!-- header (con sesión) -->
+    <header>
+        <!-- publicidad top -->
+        <div id="bannerTop" class="hidden-xs">
+            <div class="container-fluid publicidad-top">
+                <div class="container no-padding">
+                    <div class="small">
+                        Publicidad
+                    </div>
+                    <a href="http://www.mysodexo.es/click?idb=332&amp;utm_source=2016 08 Cocina Nacional&amp;link=http://www.mysodexo.es/restaurantes/busqueda/Madrid/1213/tipo-cocina/50&amp;utm_campaign=mysodexo_165_2016 08 Cocina Nacional&amp;utm_medium=990x90" target="_self"><img src="http://www.mysodexo.es/imgs/banners/banner_165_990x90.gif?1767063727" class="img-responsive"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Banner top (mobile) -->
+        <div id="bannerTop_mobile" class="hidden-sm hidden-md hidden-lg" style="margin-left:10px">
+            <div class="container-fluid publicidad-top">
+                <div class="container no-padding">
+                    <div class="small">
+                        Publicidad
+                    </div>
+                    <a href="click?idb=333&amp;utm_source=2016 08 Cocina Nacional&amp;link=http://www.mysodexo.es/restaurantes/busqueda/Madrid/1213/tipo-cocina/50&amp;utm_campaign=mysodexo_165_2016 08 Cocina Nacional&amp;utm_medium=300x50" target="_self"><img src="http://www.mysodexo.es/imgs/banners/banner_165_300x50.gif?1767063727" class="img-responsive" style="width: 97%; min-width: 300px;"></a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+
+	window.onload = function() {
+
+					if($j("#bannerTop").css('display') != 'none') {
+				eventoGA('mysodexo_165_2016 08 Cocina Nacional', 'impresion', '990x90');
+			}
+						if ($j("#bannerTop_mobile").css('display') != 'none') {
+				eventoGA('mysodexo_165_2016 08 Cocina Nacional', 'impresion', '300x50');
+			}
+
+	};
+
+</script>
+        <!-- menu-top -->
+        <div class="container hidden-xs hidden-sm" id="menu-top">
+            <ul class="nav nav-pills navbar-right">
+                <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"> Mis servicios <span class="caret"></span> </a>
+                    <ul class="dropdown-menu submenu" role="menu" id="submenu-mis-servicios">
+                        <li><a href="http://www.mysodexo.es/mis-servicios-tarjetas">Mis tarjetas</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.mysodexo.es/mis-servicios-ayuda">Ayuda y consultas</a></li>
+                    </ul> </li>
+                <li><a href="http://www.mysodexo.es/descuentos-exclusivos">Descuentos exclusivos</a></li>
+                <li><a href="http://www.mysodexo.es/eventos">Eventos</a></li>
+                <li><a href="http://www.mysodexo.es/mensajes">Mensajes</a></li>
+                <li><a href="http://www.mysodexo.es/notificaciones">Notificaciones</a></li>
+                <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"> Mi cuenta <span class="caret"></span> </a>
+                    <ul class="dropdown-menu submenu" role="menu" id="submenu-mi-cuenta">
+                        <li><a href="http://www.mysodexo.es/mis-amigos">Mis amigos</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.mysodexo.es/editar-mi-perfil">Mi perfil</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.mysodexo.es/logout" class="logout">Cerrar sesión</a></li>
+                    </ul> </li>
+            </ul>
+        </div>
+        <!-- menu ppal -->
+        <div class="header-sesion">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-md-2 no-padding text-center">
+                        <div id="menu-control" class="hidden-md hidden-lg">
+                            <img src="http://www.mysodexo.es/imgs/menu-control.png" alt="Menu">
+                        </div>
+                        <a href="http://www.mysodexo.es/inicio"><img src="http://www.mysodexo.es/imgs/my-sodexo@2x.png" style="margin: 16px 0; width: 150px;" id="logo-header-sesion"></a>
+                    </div>
+                    <div id="menu-sup" class="hidden-xs hidden-sm col-md-10 no-padding">
+                        <ul class="list-inline text-right">
+                            <li><a href="http://www.mysodexo.es/inicio">Inicio</a></li>
+                            <li><a href="http://www.mysodexo.es/restaurantes">Restaurantes</a></li>
+                            <!--<li><a href="http://myoutlet.grupeo.es/?c=28685" class="outlet" name="Menu superior" target="_blank">MyOutlet</a></li>-->
+                            <li><a href="http://www.mysodexo.es/noticias">Noticias</a></li>
+                            <li><a href="http://www.mysodexo.es/concursos">Concursos</a></li>
+                            <li><a href="http://www.mysodexo.es/zona-ahorro">Zona Ahorro</a></li>
+                            <li><a href="http://www.mysodexo.es/noticias/promociones">Promociones</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <style>
+    .resumen, .acciones {
+        display: none;
+    }
+</style>
+    <!-- mis-tarjetas -->
+    <div id="mis-tarjetas" class="container-fluid no-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8" id="tarjetas">
+                    <h2 class="page-header">Mis tarjetas</h2>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <ul class="nav nav-pills" id="lista-tarjetas">
+                                <li class="dropdown"> <a id="selecciona-tarjeta" aria-expanded="false" role="button" href="#" data-toggle="dropdown" class="dropdown-toggle"> Selecciona tarjeta <span class="caret"></span> </a>
+                                    <ul role="menu" class="dropdown-menu" style="padding:0;">
+                                        <li><a href="#" data-idcard="69300" data-service="Restaurante" class="select-tarjetas"><span class="glyphicon glyphicon-cutlery" style="background-size: 16px auto; height: 16px; width: 16px;"></span> &nbsp; Restaurante 2505 0 € </a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#" data-idcard="75297" data-service="Restaurante" class="select-tarjetas"><span class="glyphicon glyphicon-cutlery" style="background-size: 16px auto; height: 16px; width: 16px;"></span> &nbsp; Restaurante 5389 5.22 € </a></li>
+                                        <li class="divider"></li>
+                                    </ul> </li>
+                            </ul>
+                            <!-- Resumen tarjetas -->
+                            <div class="row resumen" id="resumen-69300">
+                                <div class="col-xs-12 col-sm-8">
+                                    <div id="resumen-tarjeta" class="thumbnail">
+                                        <span class="glyphicon glyphicon-cutlery"></span>
+                                        <div class="tipo" id="tarjeta-SERVICE">
+                                            Restaurante 2505
+                                        </div>
+                                        <div class="consumo" id="tarjeta-SaldoDisponible">
+                                            0 €
+                                            <span class="usmall"> Disponibles </span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <!-- Banda tarjeta -->
+                                        <div class="card-stripe"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <div id="datos-tarjeta">
+                                        <div class="separador hidden-sm hidden-md hidden-lg"></div>
+                                        <h4 id="tarjeta-CARDSTATUS">Anulada</h4>
+                                        <p>17/04/2014</p>
+                                        <h2 id="tarjeta-ApuntesPendientes">0 €</h2>
+                                        <p>Pendientes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Info de confirmación activar/bloquear tarjeta -->
+                            <div id="2507296740278633">
+                                <div class="row info-status info-activate-1">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <p><strong>Activar tarjeta</strong></p>
+                                        <p>Restaurante 2505</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <p><strong>Motivo</strong></p>
+                                        <div class="radio">
+                                            <input type="radio" name="motivo" id="motivo_1_recuperada_2507296740278633" value="recuperada" data-cardnumber="2507296740278633">
+                                            <label for="motivo_1_recuperada_2507296740278633">Tarjeta recuperada</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input type="radio" name="motivo" id="motivo_2_pin_2507296740278633" value="pin" data-cardnumber="2507296740278633">
+                                            <label for="motivo_2_pin_2507296740278633">Recuerdo mi código PIN</label>
+                                        </div>
+                                        <div id="info-recuperada-2507296740278633" class="motivo" style="display: none;" data-cardnumber="2507296740278633">
+                                            <p><span class="glyphicon glyphicon-info-sign"></span> Notifica al interlocutor autorizado de tu empresa que has recuperado tu tarjeta, antes de que confirme la emisión de la nueva. Evitarás que se anule definitivamente</p>
+                                            <div class="checkbox text-justify">
+                                                <input type="checkbox" name="confirm-activate-2507296740278633" id="confirm-activate-2507296740278633" value="1" checked data-cardnumber="2507296740278633">
+                                                <label for="confirm-activate-2507296740278633">Deseo que activen mi tarjeta recuperada</label>
+                                            </div>
+                                            <p><a href="#" data-cardnumber="2507296740278633" data-type="activate" class="btn btn-level-3 confirm" data-ga="Activar recuperada">Activar tarjeta</a></p>
+                                            <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> La activación de la tarjeta puede tardar unos minutos</p>
+                                        </div>
+                                        <div id="info-pin-2507296740278633" class="motivo" style="display: none" data-cardnumber="2507296740278633">
+                                            <p><span class="glyphicon glyphicon-info-sign"></span> Si activas tu tarjeta podrás utilizarla introduciendo tu PIN correcto. Recuerda que con la tarjeta restaurante NO es necesario introducir ningún código en el momento del pago. Informa al restaurante que “la tarjeta no tiene PIN” y firma el ticket de compra correspondiente.</p>
+                                            <p class="text-danger"><span class="glyphicon glyphicon-alert"></span> Asegúrate que ha cambiado el estado de tu tarjeta antes de realizar un nuevo pago.</p>
+                                            <div class="checkbox text-justify">
+                                                <input type="checkbox" name="confirm-activate-2507296740278633" id="confirm-activate-2507296740278633" value="1" checked data-cardnumber="2507296740278633">
+                                                <label for="confirm-activate-2507296740278633">Deseo activar mi tarjeta porque recuerdo mi código PIN</label>
+                                            </div>
+                                            <p><a href="#" data-cardnumber="2507296740278633" data-type="activate" class="btn btn-level-3 confirm" data-ga="Activar por PIN">Activar tarjeta</a></p>
+                                            <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> La activación de la tarjeta puede tardar unos minutos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row info-status info-activate-2">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <p><strong>Tarjeta a activar</strong></p>
+                                        <p>Restaurante 2505</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <div class="checkbox text-justify">
+                                            <input type="checkbox" name="confirm-activate-2507296740278633" id="confirm-activate-2507296740278633" value="1" checked data-cardnumber="2507296740278633">
+                                            <label for="confirm-activate-2507296740278633">Deseo que activen mi nueva tarjeta</label>
+                                        </div>
+                                        <p><a href="#" data-cardnumber="2507296740278633" data-type="activate" class="btn btn-level-3 confirm" data-ga="Activar por PIN">Activar tarjeta</a></p>
+                                        <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> La activación puede tardar unos minutos</p>
+                                    </div>
+                                </div>
+                                <div class="row info-status info-block">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <p><strong>Tarjeta a bloquear</strong></p>
+                                        <p>Restaurante 2505</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <p><strong>Motivo</strong></p>
+                                        <div class="radio">
+                                            <input type="radio" name="motivo" id="motivo_1_perdida_2507296740278633" value="perdida" data-cardnumber="2507296740278633">
+                                            <label for="motivo_1_perdida_2507296740278633">Pérdida</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input type="radio" name="motivo" id="motivo_2_robo_2507296740278633" value="robo" data-cardnumber="2507296740278633">
+                                            <label for="motivo_2_robo_2507296740278633">Robo o hurto</label>
+                                        </div>
+                                        <div id="info-perdida-2507296740278633" class="motivo" data-cardnumber="2507296740278633" style="display: none;">
+                                            <p><span class="glyphicon glyphicon-info-sign"></span> Si encuentras tu tarjeta después de bloquearla ... podrás volver a activarla desde MySodexo!</p>
+                                            <p><span class="glyphicon glyphicon-comment"></span> Si quieres detallar el motivo para bloquear tu tarjeta, puedes realizar una consulta online en "Opciones"</p>
+                                            <p class="text-danger"><span class="glyphicon glyphicon-alert"></span> Si finalmente no la encuentras, debes notificarlo al interlocutor autorizado de tu empresa para que nos solicite su anulación y posterior reposición. Así podrás continuar disfrutando del servicio con las mismas condiciones que tienes ahora.</p>
+                                            <div class="checkbox text-justify">
+                                                <input type="checkbox" name="confirm-block-2507296740278633" id="confirm-block-perdida-2507296740278633" value="1" data-cardnumber="2507296740278633">
+                                                <label for="confirm-block-perdida-2507296740278633">Deseo bloquear mi tarjeta para evitar que pueda ser utilizada</label>
+                                            </div>
+                                            <p><a href="#" data-cardnumber="2507296740278633" data-type="block" class="btn btn-level-3 confirm" data-ga="Bloquear por perdida">Confirmar</a></p>
+                                            <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> El bloqueo de la tarjeta puede tardar unos minutos</p>
+                                        </div>
+                                        <div id="info-robo-2507296740278633" class="motivo" data-cardnumber="2507296740278633" style="display: none">
+                                            <p><span class="glyphicon glyphicon-info-sign"></span> Si bloqueas tu tarjeta <strong>quedará anulada y no podrá ser utilizada</strong>. Si encuentras tu tarjeta después de bloquearla, no podrás volver a activarla</p>
+                                            <p><span class="glyphicon glyphicon-comment"></span> Si quieres detallar el motivo por el que vas a bloquear tu tarjeta, puedes realizar una consulta online en "Opciones"</p>
+                                            <p class="text-danger"><span class="glyphicon glyphicon-alert"></span> Para poder emitir tu nueva tarjeta, <strong>debes notificarlo al interlocutor autorizado de tu empresa para que nos solicite su reposición</strong>. Así podrás continuar disfrutando del servicio con las mismas condiciones que tienes ahora.</p>
+                                            <div class="checkbox text-justify">
+                                                <input type="checkbox" name="confirm-block-2507296740278633" id="confirm-block-robo-2507296740278633" value="1">
+                                                <label for="confirm-block-robo-2507296740278633">Deseo bloquear temporalmente mi tarjeta para evitar que pueda ser utilizada y me comprometo a comunicarlo inmediatemente a mi empresa.</label>
+                                            </div>
+                                            <p><a href="#" data-cardnumber="2507296740278633" data-type="block" class="btn btn-level-3 confirm" data-ga="Bloquear por robo">Confirmar</a></p>
+                                            <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> El bloqueo de la tarjeta puede tardar unos minutos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- cambio-estado -->
+                            <div class="row resumen" id="resumen-75297">
+                                <div class="col-xs-12 col-sm-8">
+                                    <div id="resumen-tarjeta" class="thumbnail">
+                                        <span class="glyphicon glyphicon-cutlery"></span>
+                                        <div class="tipo" id="tarjeta-SERVICE">
+                                            Restaurante 5389
+                                        </div>
+                                        <div class="consumo" id="tarjeta-SaldoDisponible">
+                                            5.22 €
+                                            <span class="usmall"> Disponibles </span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <!-- Banda tarjeta -->
+                                        <div class="card-stripe"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <div id="datos-tarjeta">
+                                        <div class="separador hidden-sm hidden-md hidden-lg"></div>
+                                        <h4 id="tarjeta-CARDSTATUS">Activa</h4>
+                                        <p>23/10/2014</p>
+                                        <h2 id="tarjeta-ApuntesPendientes">0 €</h2>
+                                        <p>Pendientes</p>
+                                        <a href="#" data-cardnumber="2507296796522314" data-type="block" data-status="30" class="btn btn-level-3 card-status">Bloquear tarjeta</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Info de confirmación activar/bloquear tarjeta -->
+                            <div id="2507296796522314">
+                                <div class="row info-status info-activate-1">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <p><strong>Activar tarjeta</strong></p>
+                                        <p>Restaurante 5389</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <p><strong>Motivo</strong></p>
+                                        <div class="radio">
+                                            <input type="radio" name="motivo" id="motivo_1_recuperada_2507296796522314" value="recuperada" data-cardnumber="2507296796522314">
+                                            <label for="motivo_1_recuperada_2507296796522314">Tarjeta recuperada</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input type="radio" name="motivo" id="motivo_2_pin_2507296796522314" value="pin" data-cardnumber="2507296796522314">
+                                            <label for="motivo_2_pin_2507296796522314">Recuerdo mi código PIN</label>
+                                        </div>
+                                        <div id="info-recuperada-2507296796522314" class="motivo" style="display: none;" data-cardnumber="2507296796522314">
+                                            <p><span class="glyphicon glyphicon-info-sign"></span> Notifica al interlocutor autorizado de tu empresa que has recuperado tu tarjeta, antes de que confirme la emisión de la nueva. Evitarás que se anule definitivamente</p>
+                                            <div class="checkbox text-justify">
+                                                <input type="checkbox" name="confirm-activate-2507296796522314" id="confirm-activate-2507296796522314" value="1" checked data-cardnumber="2507296796522314">
+                                                <label for="confirm-activate-2507296796522314">Deseo que activen mi tarjeta recuperada</label>
+                                            </div>
+                                            <p><a href="#" data-cardnumber="2507296796522314" data-type="activate" class="btn btn-level-3 confirm" data-ga="Activar recuperada">Activar tarjeta</a></p>
+                                            <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> La activación de la tarjeta puede tardar unos minutos</p>
+                                        </div>
+                                        <div id="info-pin-2507296796522314" class="motivo" style="display: none" data-cardnumber="2507296796522314">
+                                            <p><span class="glyphicon glyphicon-info-sign"></span> Si activas tu tarjeta podrás utilizarla introduciendo tu PIN correcto. Recuerda que con la tarjeta restaurante NO es necesario introducir ningún código en el momento del pago. Informa al restaurante que “la tarjeta no tiene PIN” y firma el ticket de compra correspondiente.</p>
+                                            <p class="text-danger"><span class="glyphicon glyphicon-alert"></span> Asegúrate que ha cambiado el estado de tu tarjeta antes de realizar un nuevo pago.</p>
+                                            <div class="checkbox text-justify">
+                                                <input type="checkbox" name="confirm-activate-2507296796522314" id="confirm-activate-2507296796522314" value="1" checked data-cardnumber="2507296796522314">
+                                                <label for="confirm-activate-2507296796522314">Deseo activar mi tarjeta porque recuerdo mi código PIN</label>
+                                            </div>
+                                            <p><a href="#" data-cardnumber="2507296796522314" data-type="activate" class="btn btn-level-3 confirm" data-ga="Activar por PIN">Activar tarjeta</a></p>
+                                            <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> La activación de la tarjeta puede tardar unos minutos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row info-status info-activate-2">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <p><strong>Tarjeta a activar</strong></p>
+                                        <p>Restaurante 5389</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <div class="checkbox text-justify">
+                                            <input type="checkbox" name="confirm-activate-2507296796522314" id="confirm-activate-2507296796522314" value="1" checked data-cardnumber="2507296796522314">
+                                            <label for="confirm-activate-2507296796522314">Deseo que activen mi nueva tarjeta</label>
+                                        </div>
+                                        <p><a href="#" data-cardnumber="2507296796522314" data-type="activate" class="btn btn-level-3 confirm" data-ga="Activar por PIN">Activar tarjeta</a></p>
+                                        <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> La activación puede tardar unos minutos</p>
+                                    </div>
+                                </div>
+                                <div class="row info-status info-block">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <p><strong>Tarjeta a bloquear</strong></p>
+                                        <p>Restaurante 5389</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <p><strong>Motivo</strong></p>
+                                        <div class="radio">
+                                            <input type="radio" name="motivo" id="motivo_1_perdida_2507296796522314" value="perdida" data-cardnumber="2507296796522314">
+                                            <label for="motivo_1_perdida_2507296796522314">Pérdida</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input type="radio" name="motivo" id="motivo_2_robo_2507296796522314" value="robo" data-cardnumber="2507296796522314">
+                                            <label for="motivo_2_robo_2507296796522314">Robo o hurto</label>
+                                        </div>
+                                        <div id="info-perdida-2507296796522314" class="motivo" data-cardnumber="2507296796522314" style="display: none;">
+                                            <p><span class="glyphicon glyphicon-info-sign"></span> Si encuentras tu tarjeta después de bloquearla ... podrás volver a activarla desde MySodexo!</p>
+                                            <p><span class="glyphicon glyphicon-comment"></span> Si quieres detallar el motivo para bloquear tu tarjeta, puedes realizar una consulta online en "Opciones"</p>
+                                            <p class="text-danger"><span class="glyphicon glyphicon-alert"></span> Si finalmente no la encuentras, debes notificarlo al interlocutor autorizado de tu empresa para que nos solicite su anulación y posterior reposición. Así podrás continuar disfrutando del servicio con las mismas condiciones que tienes ahora.</p>
+                                            <div class="checkbox text-justify">
+                                                <input type="checkbox" name="confirm-block-2507296796522314" id="confirm-block-perdida-2507296796522314" value="1" data-cardnumber="2507296796522314">
+                                                <label for="confirm-block-perdida-2507296796522314">Deseo bloquear mi tarjeta para evitar que pueda ser utilizada</label>
+                                            </div>
+                                            <p><a href="#" data-cardnumber="2507296796522314" data-type="block" class="btn btn-level-3 confirm" data-ga="Bloquear por perdida">Confirmar</a></p>
+                                            <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> El bloqueo de la tarjeta puede tardar unos minutos</p>
+                                        </div>
+                                        <div id="info-robo-2507296796522314" class="motivo" data-cardnumber="2507296796522314" style="display: none">
+                                            <p><span class="glyphicon glyphicon-info-sign"></span> Si bloqueas tu tarjeta <strong>quedará anulada y no podrá ser utilizada</strong>. Si encuentras tu tarjeta después de bloquearla, no podrás volver a activarla</p>
+                                            <p><span class="glyphicon glyphicon-comment"></span> Si quieres detallar el motivo por el que vas a bloquear tu tarjeta, puedes realizar una consulta online en "Opciones"</p>
+                                            <p class="text-danger"><span class="glyphicon glyphicon-alert"></span> Para poder emitir tu nueva tarjeta, <strong>debes notificarlo al interlocutor autorizado de tu empresa para que nos solicite su reposición</strong>. Así podrás continuar disfrutando del servicio con las mismas condiciones que tienes ahora.</p>
+                                            <div class="checkbox text-justify">
+                                                <input type="checkbox" name="confirm-block-2507296796522314" id="confirm-block-robo-2507296796522314" value="1">
+                                                <label for="confirm-block-robo-2507296796522314">Deseo bloquear temporalmente mi tarjeta para evitar que pueda ser utilizada y me comprometo a comunicarlo inmediatemente a mi empresa.</label>
+                                            </div>
+                                            <p><a href="#" data-cardnumber="2507296796522314" data-type="block" class="btn btn-level-3 confirm" data-ga="Bloquear por robo">Confirmar</a></p>
+                                            <p class="alert alert-warning"><span class="glyphicon glyphicon-alert"></span> El bloqueo de la tarjeta puede tardar unos minutos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- cambio-estado -->
+                        </div>
+                    </div>
+                    <!-- Tarjeta acciones -->
+                    <div id="tarjetas-acciones-69300" class="acciones">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="row" id="tarjeta-acciones">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <a href="#" class="btn btn-level-2 form-control text-center control-paneles" data-panel-id="1" data-ga="Mis movimientos" data-cardnumber="2507296740278633"><span class="glyphicon glyphicon-calendar"></span> Movimientos</a>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <a aria-expanded="false" role="button" href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-level-2 btn-block">Opciones <span class="caret"></span></a>
+                                        <ul role="menu" class="dropdown-menu submenu">
+                                            <li><a href="#" class="control-paneles" data-panel-id="2" data-ga="Detalles y condiciones" data-cardnumber="2507296740278633"><span class="glyphicon glyphicon-cog"></span> &nbsp; Detalles y condiciones</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#" class="control-paneles" data-panel-id="3" data-ga="Informacion de interes" data-cardnumber="2507296740278633"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; Información de interés</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#" class="control-paneles" data-panel-id="4" data-ga="Preguntas frecuentes" data-cardnumber="2507296740278633"><span class="glyphicon glyphicon-question-sign"></span> &nbsp; Preguntas frecuentes</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="http://www.mysodexo.es/mis-servicios-ayuda"><span class="glyphicon glyphicon-comment"></span> &nbsp; Consultas online </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <a aria-expanded="false" role="button" href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-level-2 btn-block"> <span class="glyphicon glyphicon-download-alt"></span> Exportar <span class="caret"></span> </a>
+                                        <ul role="menu" class="dropdown-menu submenu">
+                                            <li><a href="#" class="exportar-gastos" data-idcard="69300" data-type="movimientos"><span class="glyphicon glyphicon-download-alt"></span> &nbsp; Movimientos</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- OPCIONES: Movimientos -->
+                                <div id="tarjetas-panel-1-2507296740278633">
+                                    <h3 class="page-header">Movimientos</h3>
+                                    <div id="tarjeta-busqueda-movimientos-2507296740278633" class="tarjetas-panel">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <p><strong>Por periodos de tiempo</strong></p>
+                                                <p> <a href="#" class="btn btn-level-2 movimientos-mes" data-fecha-ini="01/07/2016" data-fecha-fin="31/07/2016" data-ga="Movimientos del mes pasado" data-idcard="69300">El mes pasado</a> <a href="#" class="btn btn-level-2 movimientos-mes" data-fecha-ini="01/08/2016" data-fecha-fin="05/08/2016" data-ga="Movimientos este mes" data-idcard="69300">Este mes</a> </p>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <form id="formMovimientos-69300">
+                                                    <div class="row">
+                                                        <div class="col-xs-12 col-sm-6">
+                                                            <p><strong>Fecha desde</strong></p>
+                                                            <p><input name="fechaIni" id="fechaIni-69300" class="form-control datepicker" placeholder="dd/mm/aaaa"></p>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-6">
+                                                            <p><strong>Fecha hasta</strong></p>
+                                                            <p><input name="fechaFin" id="fechaFin-69300" class="form-control datepicker" placeholder="dd/mm/aaaa"></p>
+                                                        </div>
+                                                    </div>
+                                                    <input type="hidden" name="cardnumber" value="SSSSS">
+                                                    <input type="hidden" name="idcard" value="XXXXX">
+                                                    <input type="hidden" name="esBusiness" value="0">
+                                                    <input type="hidden" name="idproduct" value="33">
+                                                    <input type="hidden" name="num_movimientos" value="">
+                                                    <input type="hidden" name="tipo" value="">
+                                                    <p><a href="#" class="btn btn-block btn-level-2 buscar-movimientos" data-idcard="69300">Aceptar</a> </p>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Resultado búsqueda de movimientos -->
+                                    <div id="resultadoMovimientos-69300"></div>
+                                    <!-- Formulario para expotar movimientos -->
+                                    <form id="formExportar-69300" name="formExportar" action="http://www.mysodexo.es/lib/tarjetas_movimientos_exportar.php" method="post" target="_blank">
+                                        <input type="hidden" name="resultadoMovimientos" id="resultadoMovimientosExportar-69300">
+                                    </form>
+                                </div>
+                                <!-- OPCIONES: Detalles y condiciones -->
+                                <div id="tarjetas-panel-2-2507296740278633" class="tarjetas-panel">
+                                    <h3 class="page-header">Detalles y condiciones</h3>
+                                    <table class="rwd-table" style="width:100%;">
+                                        <tbody>
+                                        <tr>
+                                            <th>Titular:</th>
+                                            <td data-th="Titular">RAMON RIUS GRASSET</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Número:</th>
+                                            <td data-th="Número">459340******2505</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Card ID:</th>
+                                            <td data-th="Card ID">2507296740278633</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Tipo:</th>
+                                            <td data-th="Tipo">Restaurante</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Caducidad:</th>
+                                            <td data-th="Caducidad">31/03/2017</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Estado:</th>
+                                            <td data-th="Estado">Anulada 17/04/2014</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Límite de consumo:</th>
+                                            <td data-th="Límite de consumo"> sin límite ilimitados usos por día, L M X J V S D , sin horarios </td>
+                                        </tr>
+                                        <tr>
+                                            <th valign="top">Saldo:</th>
+                                            <td data-th="Saldo" id="wallets-2507296740278633" data-crypt="lIKpiqGdm60=x=0jXFKkrZmbog==" data-cardnumber="2507296740278633" class="wallets"> </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <table width="100%">
+                                        <tbody>
+                                        <tr>
+                                            <td colspan="2" valign="top">
+                                                <hr style="color: #333333;"> </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top"> <p style="margin: 14px;"><strong>Código PIN:</strong></p> </td>
+                                            <td> <p>No</p> </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top"> <p>&nbsp;</p> </td>
+                                            <td> <p style="font-size: 12px;">No es necesario introducir ningún código en el TPV en el momento del pago. Informa al restaurante que “la tarjeta no tiene PIN” y firma el ticket de compra correspondiente.</p> <p style="font-size: 12px;"><strong>Si has introducido un código PIN por error, tu tarjeta queda bloqueada:</strong> Debes realizar una consulta online en "Opciones" para solcitar su desbloquedo.</p> <p style="font-size: 12px;">Asegúrate que ha cambiado el estado de tu tarjeta antes de realizar un nuevo pago.</p> </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" valign="top">
+                                                <hr style="color: #333333;"> </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top"> <p style="margin: 14px;"><strong>Cobertura:</strong></p> </td>
+                                            <td> <p>Nacional</p> </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top"> <p>&nbsp;</p> </td>
+                                            <td> <p style="font-size: 12px;">Aceptada en todos los establecimientos del territorio nacional, que acepten el pago con tarjeta y dispongan de TPV dado de alta como servicio de restauración y hostelería.</p> <p style="font-size: 12px;"><strong>Encuentra tu restaurante favorito con nuestro buscador y reserva mesa ¡hasta -50% en carta! </strong>Dispones de una selección de más de 35.000 restaurantes.</p> <p style="font-size: 18px;"><a class="btn btn-level-3 form-control localizar" href="#"><span class="glyphicon glyphicon-cutlery"> </span> Restaurantes cerca de mi</a></p> </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" valign="top">
+                                                <hr style="color: #333333;"> </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" valign="top"> <p style="margin: 14px;"><strong>ATENCIÓN:</strong></p>
+                                                <ul>
+                                                    <li> <p><strong>Para cualquier reclamación, es necesario que nos facilites el ticket de compra.</strong> No olvides solicitarlo al restaurante y enviarnos una imagen del mismo (foto o escaner) desde la sección "Ayuda y consultas"</p> </li>
+                                                </ul> </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <p style="margin: 14px;"><a class="btn btn-level-2" href="http://www.mysodexo.es/mis-servicios-ayuda">Ayuda y consultas</a></p>
+                                </div>
+                                <!-- OPCIONES: Información de interés -->
+                                <div id="tarjetas-panel-3-2507296740278633" class="tarjetas-panel">
+                                    <h3 class="page-header">Información de interes</h3>
+                                    <p></p>
+                                    <p><a id="index" name="index"></a></p>
+                                    <ul>
+                                        <li><a style="font-size: 16px;" href="#a">¿Qué es?</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#b">Ventajas</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#c">Comienza a utilizar tu tarjeta…</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#d">¿Cómo utilizarla?</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#e">¿Dónde se utiliza?</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#f">Por tu seguridad, en caso de robo o pérdida...</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#g">Si no dispones de internet...</a></li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="a" name="a"></a>¿Qué es?</h4>
+                                    <ul>
+                                        <li><strong>Tarjeta Restaurante Pass es un servicio por el que tu empresa ofrece a sus empleados una ayuda para el pago total o parcial de sus comidas diarias, con interesantes ventajas fiscales para ambos.</strong><br> <br> </li>
+                                        <li>Un soporte electrónico, sencillo y seguro, que ofrece facilidades como el pago exacto de cada transacción y reduce el tiempo de gestión en las empresas.<br> <br> </li>
+                                        <li>Una solución completa y eficaz para empresas públicas o privadas de cualquier tamaño y actividad, con la que cada día miles de personas pagan su menú diario, en todos los establecimientos de hostelería que acepten pago con tarjetas VISA.<br> <br> </li>
+                                        <li>Por eso, <strong>es uno de las servicios más valorados por los empleados que tienen que comer fuera de casa.</strong></li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="b" name="b"></a>Ventajas</h4>
+                                    <ul>
+                                        <li>Exención de IRPF hasta 9€ al día, lo que puede suponer <strong>un ahorro de 50€ al mes</strong>.<br> <br> </li>
+                                        <li>Aumento de la motivación y de la conciliación.<strong> Evita desplazamientos,</strong> pudiendo adelantar tu hora de salida.<br> <br> </li>
+                                        <li><strong>Facilidad de uso, comodidad y amplia aceptación</strong> en restaurantes.<br> <br> </li>
+                                        <li><strong>Rápido bloqueo por pérdida o robo</strong>. Consulta del saldo y movimientos online.<br> <br> </li>
+                                        <li><strong>Ventajas exclusivas:</strong> reserva online en restaurantes<strong> ¡hasta -50% en carta! </strong>cupones descuentos, promociones, Outlet con <strong>hasta -80% de rebajas</strong>...<br> <br> </li>
+                                        <li><strong>Aplicación móvil </strong>dedicada IOS / Android. </li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="c" name="c"></a>Comienza a utilizar tu tarjeta…</h4>
+                                    <ol>
+                                        <li>Tu empresa te ha dado tu nueva Tarjeta Restaurante Pass inactiva, por motivos de seguridad.<br> <br> </li>
+                                        <li><strong>Activar tu tarjeta</strong> para comenzar a utilizarla pulsando el botón naranja de la parte superior de esta página.<br> <br> </li>
+                                        <li>Se trata de una <strong>tarjeta de prepago </strong>y sólo tu empresa puede recargarla. Sólo podrás utilizarla si dispones de saldo. Si el precio de la comida supera el saldo disponible, podrás pagar la diferencia mediante cualquier medio.<br> <br> </li>
+                                        <li><strong>Comprueba el saldo </strong>disponible y ten en cuenta que se realizarán las futuras recargas por los importes y con la periodicidad que nos detalle tu empresa. <br> <br> </li>
+                                        <li><strong>Consulta las posibles limitaciones de tu tarjeta</strong>, pulsando el botón “Opciones” de esta página y en “Detalles y condiciones”, verás las características de uso establecidas por tu empresa.<br> <br> </li>
+                                        <li><strong>Firma tu tarjeta</strong>. Al tratarse de una tarjeta personal e intransferible, pueden pedirte tu DNI o similar.<br> <br> </li>
+                                        <li><strong>¡Ya puedes empezar a disfrutar tu tarjeta! </strong></li>
+                                    </ol>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="d" name="d"></a>¿Cómo utilizarla?</h4>
+                                    <ul>
+                                        <li><strong>Informa al restaurante que “la tarjeta no tiene PIN” y firma el ticket</strong> de compra correspondiente que te facilite el establecimiento. <br> <br> </li>
+                                        <li>Recuerda que tu Tarjeta Restaurante Pass no tiene PIN de seguridad, por lo que no es necesario introducir ningún código en el TPV en el momento del pago. <br> <br> </li>
+                                        <li><strong>Si introduces un PIN por error, tu tarjeta quedará bloqueada</strong>. <br> <br> </li>
+                                        <li>Debes realizar una consulta online en "Opciones" para solcitar su desbloquedo.<br> <br> </li>
+                                        <li>Asegúrate que ha cambiado el estado de tu tarjeta antes de realizar un nuevo pago.</li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="e" name="e"></a>¿Dónde se utiliza?</h4>
+                                    <ul>
+                                        <li>Tu Tarjeta Restaurante Pass es aceptada en todos los establecimientos del territorio nacional, que acepten el pago con tarjeta y dispongan de TPV dado de alta como servicio de restauración y hostelería.<br> <br> </li>
+                                        <li>Según las últimas estadísticas de las asociaciones del sector, en España hay aproximadamente 400.000 establecimientos de hostelería. <br> <br> </li>
+                                        <li><strong>Encuentra tu favorito con nuestro buscador de restaurantes y reserva mesa ¡hasta -50% en carta!</strong> Dispones de una selección de más de 35.000 restaurantes.<br> <br> <a class="btn btn-level-3 form-control localizar" href="#"><span class="glyphicon glyphicon-cutlery"> </span> Restaurantes cerca de mi</a><br> <br> </li>
+                                        <li>Descubre nuestros <strong>restaurantes recomendados en la sección</strong> <a class="btn btn-level-2" href="/noticias/gastroexperiencias">Gastroexperiencias</a></li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="f" name="f"></a>Por tu seguridad, en caso de robo o pérdida...</h4>
+                                    <ol>
+                                        <li><strong>Bloquea al momento tu tarjeta desde cualquier dispositivo</strong> pulsando el botón “bloquear tarjeta” de esta página.<br> <br> </li>
+                                        <li>Si encuentras tu tarjeta después de bloquearla... podrás volver a activarla desde MySodexo!<br> <br> </li>
+                                        <li>Si finalmente no la encuentras, para poder emitir tu nueva tarjeta, debes notificarlo al interlocutor autorizado de tu empresa para que nos solicite su reposición.</li>
+                                    </ol>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="g" name="g"></a>Si no dispones de internet</h4>
+                                    <ul>
+                                        <li>Llamando al 902 022 490 dentro de nuestro horario de atención al cliente, podrás realizar todas las gestiones de tu tarjeta.</li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p></p>
+                                </div>
+                                <!-- OPCIONES: Preguntas fecuentes -->
+                                <div id="tarjetas-panel-4-2507296740278633" class="tarjetas-panel">
+                                    <h3 class="page-header">Preguntas frecuentes</h3>
+                                    <p></p>
+                                    <p><a id="top" name="top"></a></p>
+                                    <ol>
+                                        <li><a style="font-size: 16px;" href="#1">¿Dónde puedo utilizar mi Tarjeta Restaurante Pass?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#2">¿Es válida la Tarjeta Restaurante Pass fuera de España?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#3">Si voy a unos grandes almacenes, ¿puede consumir mi Tarjeta Restaurante Pass en la cafetería?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#4">Al realizar el pago con mi Tarjeta Restaurante Pass, me solicitan un PIN ¿qué debo hacer?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#5">¿Qué puedo hacer si no funciona mi Tarjeta Restaurante Pass?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#6">¿Dónde puedo consultar mi saldo y movimientos?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#7">¿Cuántas veces puedo utilizar mi Tarjeta Restaurante Pass? ¿Puedo gastar todo mi saldo de una vez?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#8">¿Cuándo puedo utilizar mi Tarjeta Restaurante Pass? ¿Puedo utilizarla en cualquier momento del día?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#9">Mi tarjeta tiene límite de uso diario de 9€ y quiero pagar el menú de día de 10,50€… ¿qué puedo hacer?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#10">¿Qué caducidad tiene la Tarjeta Restaurante Pass?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#11">¿Qué puedo hacer si me roban o pierdo mi Tarjeta Restaurante Pass?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#12">¿Tengo que identificarme al utilizar mi tarjeta?</a><br><br></li>
+                                    </ol>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="1" name="1"></a>1. ¿Dónde puedo utilizar mi Tarjeta Restaurante Pass?</h4>
+                                    <p>En todos los restaurantes que acepten pago con tarjeta y dispongan de TPV dado de alta como servicio de restauración y hostelería.<strong> Encuentra tu favorito con nuestro buscador de restaurantes y reserva mesa ¡hasta -50% en carta!</strong> Dispones de una selección de más de 35.000 restaurantes.</p>
+                                    <p><a class="btn btn-level-3 form-control localizar" href="#"><span class="glyphicon glyphicon-cutlery"> </span> Restaurantes cerca de mi</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="2" name="2"></a>2. ¿Es válida la Tarjeta Restaurante Pass fuera de España?</h4>
+                                    <p>No, la tarjeta es válida sólo en restaurantes del territorio nacional. Descubre nuestros <strong>restaurantes recomendados en la sección</strong> <a class="btn btn-level-2" href="/noticias/gastroexperiencias">Gastroexperiencias</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="3" name="3"></a>3. Si voy a unos grandes almacenes, ¿puede consumir mi Tarjeta Restaurante Pass en la cafetería?</h4>
+                                    <p>La Tarjeta Restaurante Pass sólo es válida en aquellos comercios con TPV que estén dados de alta como servicios de hostelería y restauración. Puede ocurrir que en los restaurantes o cafeterías de unos grandes almacenes, no puedas utilizar tu tarjeta porque el TPV esté dado de alta como comercio y no como servicios de hostelería y restauración.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="4" name="4"></a>4. Al realizar el pago con mi Tarjeta Restaurante Pass, me solicitan un PIN ¿qué debo hacer?</h4>
+                                    <p>La Tarjeta Restaurante Pass no tiene PIN de seguridad, por lo que no es necesario introducir ningún código en el TPV en el momento del pago.</p>
+                                    <p><strong>Informa al restaurante que “la tarjeta no tiene PIN” y firma el ticket de compra </strong>correspondiente que te facilite el establecimiento.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="5" name="5"></a>5. ¿Qué puedo hacer si no funciona mi Tarjeta Restaurante Pass?</h4>
+                                    <p>Puede deberse a varias causas, entre las más frecuentes son:</p>
+                                    <ol>
+                                        <li><strong>No tienes saldo suficiente </strong>para realizar el pago. Antes de pagar tu comida, asegúrate que tienes saldo suficiente en tu tarjeta.<br> <br> </li>
+                                        <li><strong>El TPV del establecimiento no funciona</strong> correctamente o no está dado de alta como servicio de restauración y hostelería. Pregunta si disponen de otro TPV para realizar tus pagos.<br> <br> </li>
+                                        <li><strong>Has introducido un código PIN por error </strong>y has bloqueado tu tarjeta. Debes realizar una consulta online en "Opciones" para solcitar su desbloquedo. Asegúrate que ha cambiado el estado de tu tarjeta antes de realizar un nuevo pago.<br> <br> </li>
+                                        <li><strong>La banda magnética de tu tarjeta puede tener un problem</strong>a. En ese caso, ponte en contacto con el responsable de tu empresa para que nos solicite la reposición de tu tarjeta defectuosa. Esta será anulada y se le enviará una nueva con el saldo disponible en el momento del aviso.</li>
+                                    </ol>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="6" name="6"></a>6. ¿Dónde puedo consultar mi saldo y movimientos?</h4>
+                                    <p>En esta misma web desde cualquier dispositivo. Si no dispones de internet, llamando al 902 022 490 dentro de nuestro horario de atención al cliente, podrás realizar todas las gestiones de tu tarjeta.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="7" name="7"></a>7. ¿Cuántas veces puedo utilizar mi Tarjeta Restaurante Pass? ¿Puedo gastar todo mi saldo de una vez?</h4>
+                                    <p>Podrás consumir tu saldo dependiendo de las condiciones de uso que tu empresa haya definido.</p>
+                                    <p>Consulta las características de tu tarjeta, pulsando el botón “Opciones” de esta página y en “Detalles y condiciones”, verás las posibles limitaciones de uso establecidas por tu empresa.</p>
+                                    <p>Si tienes dudas, pregunta al responsable de tu empresa para saber tus condiciones de uso particulares.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="8" name="8"></a>8. ¿Cuándo puedo utilizar mi Tarjeta Restaurante Pass? ¿Puedo utilizarla en cualquier momento del día?</h4>
+                                    <p>En principio, la Tarjeta Restaurante Pass no tiene ningún tipo de restricción horaria, pero en determinados casos puede tener ciertas limitaciones, dependiendo de las condiciones de uso que tu empresa haya asignado.<br> Consulta las características de tu tarjeta, pulsando el botón “Opciones” de esta página y en “Detalles y condiciones”, verás las posibles limitaciones de uso establecidas por tu empresa.</p>
+                                    <p>Si tienes dudas, pregunta al responsable de tu empresa para saber tus condiciones de uso particulares.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="9" name="9"></a>9. Mi tarjeta tiene límite de uso diario de 9€ y quiero pagar el menú de día de 10,50€… ¿qué puedo hacer?</h4>
+                                    <p>Puedes realizar un pago de 9 euros con tu Tarjeta Restaurante Pass y el resto en con otra tarjeta o efectivo.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="10" name="10"></a>10. ¿Qué caducidad tiene la Tarjeta Restaurante Pass?</h4>
+                                    <p>Puedes comprobar la fecha de caducidad de tu tarjeta en el anverso de la misma.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="11" name="11"></a>11. ¿Qué puedo hacer si me roban o pierdo mi Tarjeta Restaurante Pass?</h4>
+                                    <p><strong>Bloquea al momento tu tarjeta desde cualquier dispositivo</strong> pulsando el botón “bloquear tarjeta” de esta página.</p>
+                                    <p>Si encuentras tu tarjeta después de bloquearla... podrás volver a activarla desde MySodexo!</p>
+                                    <p>Si finalmente no la encuentras, para poder emitir tu nueva tarjeta, debes notificarlo al interlocutor autorizado de tu empresa para que nos solicite su reposición.</p>
+                                    <p>Si no dispones de internet, llamando al 902 022 490 dentro de nuestro horario de atención al cliente, podrás realizar todas las gestiones de tu tarjeta.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="12" name="12"></a>12. ¿Tengo que identificarme al utilizar mi tarjeta?</h4>
+                                    <p><strong>No es necesario,</strong> pero al tratarse de una tarjeta personal e intransferible, pueden pedirte tu DNI o similar. Si es necesario firmar el ticket de consumición correspondiente.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tarjetas-acciones-75297" class="acciones">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="row" id="tarjeta-acciones">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <a href="#" class="btn btn-level-2 form-control text-center control-paneles" data-panel-id="1" data-ga="Mis movimientos" data-cardnumber="2507296796522314"><span class="glyphicon glyphicon-calendar"></span> Movimientos</a>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <a aria-expanded="false" role="button" href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-level-2 btn-block">Opciones <span class="caret"></span></a>
+                                        <ul role="menu" class="dropdown-menu submenu">
+                                            <li><a href="#" class="control-paneles" data-panel-id="2" data-ga="Detalles y condiciones" data-cardnumber="2507296796522314"><span class="glyphicon glyphicon-cog"></span> &nbsp; Detalles y condiciones</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#" class="control-paneles" data-panel-id="3" data-ga="Informacion de interes" data-cardnumber="2507296796522314"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; Información de interés</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#" class="control-paneles" data-panel-id="4" data-ga="Preguntas frecuentes" data-cardnumber="2507296796522314"><span class="glyphicon glyphicon-question-sign"></span> &nbsp; Preguntas frecuentes</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="http://www.mysodexo.es/mis-servicios-ayuda"><span class="glyphicon glyphicon-comment"></span> &nbsp; Consultas online </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <a aria-expanded="false" role="button" href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-level-2 btn-block"> <span class="glyphicon glyphicon-download-alt"></span> Exportar <span class="caret"></span> </a>
+                                        <ul role="menu" class="dropdown-menu submenu">
+                                            <li><a href="#" class="exportar-gastos" data-idcard="75297" data-type="movimientos"><span class="glyphicon glyphicon-download-alt"></span> &nbsp; Movimientos</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- OPCIONES: Movimientos -->
+                                <div id="tarjetas-panel-1-2507296796522314">
+                                    <h3 class="page-header">Movimientos</h3>
+                                    <div id="tarjeta-busqueda-movimientos-2507296796522314" class="tarjetas-panel">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <p><strong>Por periodos de tiempo</strong></p>
+                                                <p> <a href="#" class="btn btn-level-2 movimientos-mes" data-fecha-ini="01/07/2016" data-fecha-fin="31/07/2016" data-ga="Movimientos del mes pasado" data-idcard="75297">El mes pasado</a> <a href="#" class="btn btn-level-2 movimientos-mes" data-fecha-ini="01/08/2016" data-fecha-fin="05/08/2016" data-ga="Movimientos este mes" data-idcard="75297">Este mes</a> </p>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <form id="formMovimientos-75297">
+                                                    <div class="row">
+                                                        <div class="col-xs-12 col-sm-6">
+                                                            <p><strong>Fecha desde</strong></p>
+                                                            <p><input name="fechaIni" id="fechaIni-75297" class="form-control datepicker" placeholder="dd/mm/aaaa"></p>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-6">
+                                                            <p><strong>Fecha hasta</strong></p>
+                                                            <p><input name="fechaFin" id="fechaFin-75297" class="form-control datepicker" placeholder="dd/mm/aaaa"></p>
+                                                        </div>
+                                                    </div>
+                                                    <input type="hidden" name="cardnumber" value="lIKpiqGdm60=x=0oYlWfp5aZow==">
+                                                    <input type="hidden" name="idcard" value="mYKrjKY=">
+                                                    <input type="hidden" name="esBusiness" value="0">
+                                                    <input type="hidden" name="idproduct" value="33">
+                                                    <input type="hidden" name="num_movimientos" value="">
+                                                    <input type="hidden" name="tipo" value="">
+                                                    <p><a href="#" class="btn btn-block btn-level-2 buscar-movimientos" data-idcard="75297">Aceptar</a> </p>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Resultado búsqueda de movimientos -->
+                                    <div id="resultadoMovimientos-75297"></div>
+                                    <!-- Formulario para expotar movimientos -->
+                                    <form id="formExportar-75297" name="formExportar" action="http://www.mysodexo.es/lib/tarjetas_movimientos_exportar.php" method="post" target="_blank">
+                                        <input type="hidden" name="resultadoMovimientos" id="resultadoMovimientosExportar-75297">
+                                    </form>
+                                </div>
+                                <!-- OPCIONES: Detalles y condiciones -->
+                                <div id="tarjetas-panel-2-2507296796522314" class="tarjetas-panel">
+                                    <h3 class="page-header">Detalles y condiciones</h3>
+                                    <table class="rwd-table" style="width:100%;">
+                                        <tbody>
+                                        <tr>
+                                            <th>Titular:</th>
+                                            <td data-th="Titular">RAMON RIUS GRASSET</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Número:</th>
+                                            <td data-th="Número">459340******5389</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Card ID:</th>
+                                            <td data-th="Card ID">2507296796522314</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Tipo:</th>
+                                            <td data-th="Tipo">Restaurante</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Caducidad:</th>
+                                            <td data-th="Caducidad">30/09/2017</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Estado:</th>
+                                            <td data-th="Estado">Activa 23/10/2014</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Límite de consumo:</th>
+                                            <td data-th="Límite de consumo"> sin límite ilimitados usos por día, L M X J V S D , sin horarios </td>
+                                        </tr>
+                                        <tr>
+                                            <th valign="top">Saldo:</th>
+                                            <td data-th="Saldo" id="wallets-2507296796522314" data-crypt="lIKpiqGdm60=x=0oYlWfp5aZow==" data-cardnumber="2507296796522314" class="wallets"> </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <table width="100%">
+                                        <tbody>
+                                        <tr>
+                                            <td colspan="2" valign="top">
+                                                <hr style="color: #333333;"> </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top"> <p style="margin: 14px;"><strong>Código PIN:</strong></p> </td>
+                                            <td> <p>No</p> </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top"> <p>&nbsp;</p> </td>
+                                            <td> <p style="font-size: 12px;">No es necesario introducir ningún código en el TPV en el momento del pago. Informa al restaurante que “la tarjeta no tiene PIN” y firma el ticket de compra correspondiente.</p> <p style="font-size: 12px;"><strong>Si has introducido un código PIN por error, tu tarjeta queda bloqueada:</strong> Debes realizar una consulta online en "Opciones" para solcitar su desbloquedo.</p> <p style="font-size: 12px;">Asegúrate que ha cambiado el estado de tu tarjeta antes de realizar un nuevo pago.</p> </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" valign="top">
+                                                <hr style="color: #333333;"> </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top"> <p style="margin: 14px;"><strong>Cobertura:</strong></p> </td>
+                                            <td> <p>Nacional</p> </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top"> <p>&nbsp;</p> </td>
+                                            <td> <p style="font-size: 12px;">Aceptada en todos los establecimientos del territorio nacional, que acepten el pago con tarjeta y dispongan de TPV dado de alta como servicio de restauración y hostelería.</p> <p style="font-size: 12px;"><strong>Encuentra tu restaurante favorito con nuestro buscador y reserva mesa ¡hasta -50% en carta! </strong>Dispones de una selección de más de 35.000 restaurantes.</p> <p style="font-size: 18px;"><a class="btn btn-level-3 form-control localizar" href="#"><span class="glyphicon glyphicon-cutlery"> </span> Restaurantes cerca de mi</a></p> </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" valign="top">
+                                                <hr style="color: #333333;"> </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" valign="top"> <p style="margin: 14px;"><strong>ATENCIÓN:</strong></p>
+                                                <ul>
+                                                    <li> <p><strong>Para cualquier reclamación, es necesario que nos facilites el ticket de compra.</strong> No olvides solicitarlo al restaurante y enviarnos una imagen del mismo (foto o escaner) desde la sección "Ayuda y consultas"</p> </li>
+                                                </ul> </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <p style="margin: 14px;"><a class="btn btn-level-2" href="http://www.mysodexo.es/mis-servicios-ayuda">Ayuda y consultas</a></p>
+                                </div>
+                                <!-- OPCIONES: Información de interés -->
+                                <div id="tarjetas-panel-3-2507296796522314" class="tarjetas-panel">
+                                    <h3 class="page-header">Información de interes</h3>
+                                    <p></p>
+                                    <p><a id="index" name="index"></a></p>
+                                    <ul>
+                                        <li><a style="font-size: 16px;" href="#a">¿Qué es?</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#b">Ventajas</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#c">Comienza a utilizar tu tarjeta…</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#d">¿Cómo utilizarla?</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#e">¿Dónde se utiliza?</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#f">Por tu seguridad, en caso de robo o pérdida...</a><br> <br> </li>
+                                        <li><a style="font-size: 16px;" href="#g">Si no dispones de internet...</a></li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="a" name="a"></a>¿Qué es?</h4>
+                                    <ul>
+                                        <li><strong>Tarjeta Restaurante Pass es un servicio por el que tu empresa ofrece a sus empleados una ayuda para el pago total o parcial de sus comidas diarias, con interesantes ventajas fiscales para ambos.</strong><br> <br> </li>
+                                        <li>Un soporte electrónico, sencillo y seguro, que ofrece facilidades como el pago exacto de cada transacción y reduce el tiempo de gestión en las empresas.<br> <br> </li>
+                                        <li>Una solución completa y eficaz para empresas públicas o privadas de cualquier tamaño y actividad, con la que cada día miles de personas pagan su menú diario, en todos los establecimientos de hostelería que acepten pago con tarjetas VISA.<br> <br> </li>
+                                        <li>Por eso, <strong>es uno de las servicios más valorados por los empleados que tienen que comer fuera de casa.</strong></li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="b" name="b"></a>Ventajas</h4>
+                                    <ul>
+                                        <li>Exención de IRPF hasta 9€ al día, lo que puede suponer <strong>un ahorro de 50€ al mes</strong>.<br> <br> </li>
+                                        <li>Aumento de la motivación y de la conciliación.<strong> Evita desplazamientos,</strong> pudiendo adelantar tu hora de salida.<br> <br> </li>
+                                        <li><strong>Facilidad de uso, comodidad y amplia aceptación</strong> en restaurantes.<br> <br> </li>
+                                        <li><strong>Rápido bloqueo por pérdida o robo</strong>. Consulta del saldo y movimientos online.<br> <br> </li>
+                                        <li><strong>Ventajas exclusivas:</strong> reserva online en restaurantes<strong> ¡hasta -50% en carta! </strong>cupones descuentos, promociones, Outlet con <strong>hasta -80% de rebajas</strong>...<br> <br> </li>
+                                        <li><strong>Aplicación móvil </strong>dedicada IOS / Android. </li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="c" name="c"></a>Comienza a utilizar tu tarjeta…</h4>
+                                    <ol>
+                                        <li>Tu empresa te ha dado tu nueva Tarjeta Restaurante Pass inactiva, por motivos de seguridad.<br> <br> </li>
+                                        <li><strong>Activar tu tarjeta</strong> para comenzar a utilizarla pulsando el botón naranja de la parte superior de esta página.<br> <br> </li>
+                                        <li>Se trata de una <strong>tarjeta de prepago </strong>y sólo tu empresa puede recargarla. Sólo podrás utilizarla si dispones de saldo. Si el precio de la comida supera el saldo disponible, podrás pagar la diferencia mediante cualquier medio.<br> <br> </li>
+                                        <li><strong>Comprueba el saldo </strong>disponible y ten en cuenta que se realizarán las futuras recargas por los importes y con la periodicidad que nos detalle tu empresa. <br> <br> </li>
+                                        <li><strong>Consulta las posibles limitaciones de tu tarjeta</strong>, pulsando el botón “Opciones” de esta página y en “Detalles y condiciones”, verás las características de uso establecidas por tu empresa.<br> <br> </li>
+                                        <li><strong>Firma tu tarjeta</strong>. Al tratarse de una tarjeta personal e intransferible, pueden pedirte tu DNI o similar.<br> <br> </li>
+                                        <li><strong>¡Ya puedes empezar a disfrutar tu tarjeta! </strong></li>
+                                    </ol>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="d" name="d"></a>¿Cómo utilizarla?</h4>
+                                    <ul>
+                                        <li><strong>Informa al restaurante que “la tarjeta no tiene PIN” y firma el ticket</strong> de compra correspondiente que te facilite el establecimiento. <br> <br> </li>
+                                        <li>Recuerda que tu Tarjeta Restaurante Pass no tiene PIN de seguridad, por lo que no es necesario introducir ningún código en el TPV en el momento del pago. <br> <br> </li>
+                                        <li><strong>Si introduces un PIN por error, tu tarjeta quedará bloqueada</strong>. <br> <br> </li>
+                                        <li>Debes realizar una consulta online en "Opciones" para solcitar su desbloquedo.<br> <br> </li>
+                                        <li>Asegúrate que ha cambiado el estado de tu tarjeta antes de realizar un nuevo pago.</li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="e" name="e"></a>¿Dónde se utiliza?</h4>
+                                    <ul>
+                                        <li>Tu Tarjeta Restaurante Pass es aceptada en todos los establecimientos del territorio nacional, que acepten el pago con tarjeta y dispongan de TPV dado de alta como servicio de restauración y hostelería.<br> <br> </li>
+                                        <li>Según las últimas estadísticas de las asociaciones del sector, en España hay aproximadamente 400.000 establecimientos de hostelería. <br> <br> </li>
+                                        <li><strong>Encuentra tu favorito con nuestro buscador de restaurantes y reserva mesa ¡hasta -50% en carta!</strong> Dispones de una selección de más de 35.000 restaurantes.<br> <br> <a class="btn btn-level-3 form-control localizar" href="#"><span class="glyphicon glyphicon-cutlery"> </span> Restaurantes cerca de mi</a><br> <br> </li>
+                                        <li>Descubre nuestros <strong>restaurantes recomendados en la sección</strong> <a class="btn btn-level-2" href="/noticias/gastroexperiencias">Gastroexperiencias</a></li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="f" name="f"></a>Por tu seguridad, en caso de robo o pérdida...</h4>
+                                    <ol>
+                                        <li><strong>Bloquea al momento tu tarjeta desde cualquier dispositivo</strong> pulsando el botón “bloquear tarjeta” de esta página.<br> <br> </li>
+                                        <li>Si encuentras tu tarjeta después de bloquearla... podrás volver a activarla desde MySodexo!<br> <br> </li>
+                                        <li>Si finalmente no la encuentras, para poder emitir tu nueva tarjeta, debes notificarlo al interlocutor autorizado de tu empresa para que nos solicite su reposición.</li>
+                                    </ol>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="g" name="g"></a>Si no dispones de internet</h4>
+                                    <ul>
+                                        <li>Llamando al 902 022 490 dentro de nuestro horario de atención al cliente, podrás realizar todas las gestiones de tu tarjeta.</li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><a class="btn btn-level-2" href="#index">subir △</a></p>
+                                    <p></p>
+                                </div>
+                                <!-- OPCIONES: Preguntas fecuentes -->
+                                <div id="tarjetas-panel-4-2507296796522314" class="tarjetas-panel">
+                                    <h3 class="page-header">Preguntas frecuentes</h3>
+                                    <p></p>
+                                    <p><a id="top" name="top"></a></p>
+                                    <ol>
+                                        <li><a style="font-size: 16px;" href="#1">¿Dónde puedo utilizar mi Tarjeta Restaurante Pass?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#2">¿Es válida la Tarjeta Restaurante Pass fuera de España?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#3">Si voy a unos grandes almacenes, ¿puede consumir mi Tarjeta Restaurante Pass en la cafetería?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#4">Al realizar el pago con mi Tarjeta Restaurante Pass, me solicitan un PIN ¿qué debo hacer?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#5">¿Qué puedo hacer si no funciona mi Tarjeta Restaurante Pass?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#6">¿Dónde puedo consultar mi saldo y movimientos?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#7">¿Cuántas veces puedo utilizar mi Tarjeta Restaurante Pass? ¿Puedo gastar todo mi saldo de una vez?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#8">¿Cuándo puedo utilizar mi Tarjeta Restaurante Pass? ¿Puedo utilizarla en cualquier momento del día?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#9">Mi tarjeta tiene límite de uso diario de 9€ y quiero pagar el menú de día de 10,50€… ¿qué puedo hacer?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#10">¿Qué caducidad tiene la Tarjeta Restaurante Pass?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#11">¿Qué puedo hacer si me roban o pierdo mi Tarjeta Restaurante Pass?</a><br><br></li>
+                                        <li><a style="font-size: 16px;" href="#12">¿Tengo que identificarme al utilizar mi tarjeta?</a><br><br></li>
+                                    </ol>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="1" name="1"></a>1. ¿Dónde puedo utilizar mi Tarjeta Restaurante Pass?</h4>
+                                    <p>En todos los restaurantes que acepten pago con tarjeta y dispongan de TPV dado de alta como servicio de restauración y hostelería.<strong> Encuentra tu favorito con nuestro buscador de restaurantes y reserva mesa ¡hasta -50% en carta!</strong> Dispones de una selección de más de 35.000 restaurantes.</p>
+                                    <p><a class="btn btn-level-3 form-control localizar" href="#"><span class="glyphicon glyphicon-cutlery"> </span> Restaurantes cerca de mi</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="2" name="2"></a>2. ¿Es válida la Tarjeta Restaurante Pass fuera de España?</h4>
+                                    <p>No, la tarjeta es válida sólo en restaurantes del territorio nacional. Descubre nuestros <strong>restaurantes recomendados en la sección</strong> <a class="btn btn-level-2" href="/noticias/gastroexperiencias">Gastroexperiencias</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="3" name="3"></a>3. Si voy a unos grandes almacenes, ¿puede consumir mi Tarjeta Restaurante Pass en la cafetería?</h4>
+                                    <p>La Tarjeta Restaurante Pass sólo es válida en aquellos comercios con TPV que estén dados de alta como servicios de hostelería y restauración. Puede ocurrir que en los restaurantes o cafeterías de unos grandes almacenes, no puedas utilizar tu tarjeta porque el TPV esté dado de alta como comercio y no como servicios de hostelería y restauración.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="4" name="4"></a>4. Al realizar el pago con mi Tarjeta Restaurante Pass, me solicitan un PIN ¿qué debo hacer?</h4>
+                                    <p>La Tarjeta Restaurante Pass no tiene PIN de seguridad, por lo que no es necesario introducir ningún código en el TPV en el momento del pago.</p>
+                                    <p><strong>Informa al restaurante que “la tarjeta no tiene PIN” y firma el ticket de compra </strong>correspondiente que te facilite el establecimiento.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="5" name="5"></a>5. ¿Qué puedo hacer si no funciona mi Tarjeta Restaurante Pass?</h4>
+                                    <p>Puede deberse a varias causas, entre las más frecuentes son:</p>
+                                    <ol>
+                                        <li><strong>No tienes saldo suficiente </strong>para realizar el pago. Antes de pagar tu comida, asegúrate que tienes saldo suficiente en tu tarjeta.<br> <br> </li>
+                                        <li><strong>El TPV del establecimiento no funciona</strong> correctamente o no está dado de alta como servicio de restauración y hostelería. Pregunta si disponen de otro TPV para realizar tus pagos.<br> <br> </li>
+                                        <li><strong>Has introducido un código PIN por error </strong>y has bloqueado tu tarjeta. Debes realizar una consulta online en "Opciones" para solcitar su desbloquedo. Asegúrate que ha cambiado el estado de tu tarjeta antes de realizar un nuevo pago.<br> <br> </li>
+                                        <li><strong>La banda magnética de tu tarjeta puede tener un problem</strong>a. En ese caso, ponte en contacto con el responsable de tu empresa para que nos solicite la reposición de tu tarjeta defectuosa. Esta será anulada y se le enviará una nueva con el saldo disponible en el momento del aviso.</li>
+                                    </ol>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="6" name="6"></a>6. ¿Dónde puedo consultar mi saldo y movimientos?</h4>
+                                    <p>En esta misma web desde cualquier dispositivo. Si no dispones de internet, llamando al 902 022 490 dentro de nuestro horario de atención al cliente, podrás realizar todas las gestiones de tu tarjeta.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="7" name="7"></a>7. ¿Cuántas veces puedo utilizar mi Tarjeta Restaurante Pass? ¿Puedo gastar todo mi saldo de una vez?</h4>
+                                    <p>Podrás consumir tu saldo dependiendo de las condiciones de uso que tu empresa haya definido.</p>
+                                    <p>Consulta las características de tu tarjeta, pulsando el botón “Opciones” de esta página y en “Detalles y condiciones”, verás las posibles limitaciones de uso establecidas por tu empresa.</p>
+                                    <p>Si tienes dudas, pregunta al responsable de tu empresa para saber tus condiciones de uso particulares.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="8" name="8"></a>8. ¿Cuándo puedo utilizar mi Tarjeta Restaurante Pass? ¿Puedo utilizarla en cualquier momento del día?</h4>
+                                    <p>En principio, la Tarjeta Restaurante Pass no tiene ningún tipo de restricción horaria, pero en determinados casos puede tener ciertas limitaciones, dependiendo de las condiciones de uso que tu empresa haya asignado.<br> Consulta las características de tu tarjeta, pulsando el botón “Opciones” de esta página y en “Detalles y condiciones”, verás las posibles limitaciones de uso establecidas por tu empresa.</p>
+                                    <p>Si tienes dudas, pregunta al responsable de tu empresa para saber tus condiciones de uso particulares.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="9" name="9"></a>9. Mi tarjeta tiene límite de uso diario de 9€ y quiero pagar el menú de día de 10,50€… ¿qué puedo hacer?</h4>
+                                    <p>Puedes realizar un pago de 9 euros con tu Tarjeta Restaurante Pass y el resto en con otra tarjeta o efectivo.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="10" name="10"></a>10. ¿Qué caducidad tiene la Tarjeta Restaurante Pass?</h4>
+                                    <p>Puedes comprobar la fecha de caducidad de tu tarjeta en el anverso de la misma.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="11" name="11"></a>11. ¿Qué puedo hacer si me roban o pierdo mi Tarjeta Restaurante Pass?</h4>
+                                    <p><strong>Bloquea al momento tu tarjeta desde cualquier dispositivo</strong> pulsando el botón “bloquear tarjeta” de esta página.</p>
+                                    <p>Si encuentras tu tarjeta después de bloquearla... podrás volver a activarla desde MySodexo!</p>
+                                    <p>Si finalmente no la encuentras, para poder emitir tu nueva tarjeta, debes notificarlo al interlocutor autorizado de tu empresa para que nos solicite su reposición.</p>
+                                    <p>Si no dispones de internet, llamando al 902 022 490 dentro de nuestro horario de atención al cliente, podrás realizar todas las gestiones de tu tarjeta.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <hr style="color: #333333;">
+                                    <p>&nbsp;</p>
+                                    <h4><a id="12" name="12"></a>12. ¿Tengo que identificarme al utilizar mi tarjeta?</h4>
+                                    <p><strong>No es necesario,</strong> pero al tratarse de una tarjeta personal e intransferible, pueden pedirte tu DNI o similar. Si es necesario firmar el ticket de consumición correspondiente.</p>
+                                    <p><a class="btn btn-level-2" href="#top">subir △</a></p>
+                                    <p>&nbsp;</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna dcha -->
+                <div class="hidden-xs hidden-sm col-md-4 panel-dcho">
+                    <!-- publicidad lateral -->
+                    <div id="modulo-publicidad-lateral" class="publicidad-lateral">
+                        <small>Publicidad</small>
+                        <a href="http://www.mysodexo.es/click?idb=331&amp;utm_source=2016 08 Cocina Nacional&amp;link=http://www.mysodexo.es/restaurantes/busqueda/Madrid/1213/tipo-cocina/50&amp;utm_campaign=mysodexo_165_2016 08 Cocina Nacional&amp;utm_medium=300x300" target="_self"><img src="http://www.mysodexo.es/imgs/banners/banner_165_300x300.gif?1505631932"></a>
+                    </div>
+                    <script type="text/javascript">
+
+	window.onload = function() {
+
+					if ($j(".panel-dcho").css('display') != 'none') {
+				eventoGA('mysodexo_165_2016 08 Cocina Nacional', 'impresion', '300x300');
+			}
+
+	};
+
+</script>
+                    <!-- Los más reservados -->
+                    <div id="modulo-mas-reservados" class="panel panel-default" data-cp="08014" data-localidad="" echo>
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Los restaurantes más reservados</h3>
+                        </div>
+                        <ul class="list-group" id="masReservados">
+                            <!-- Listado de restaurantes más reservados -->
+                            <li id="alerta-cp" style="display: none;">
+                                <div class="alert alert-danger" style="margin:5px;">
+                                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&nbsp;
+                                    <strong>Ups!</strong> Dinos dónde está tu oficina y podrás encontrar más rápido el restaurante más cercano a tu trabajo!
+                                    <p><a href="#" id="editar-cp">Editar »</a></p>
+                                </div> </li>
+                        </ul>
+                    </div>
+                    <!-- Invitar a mis amigos -->
+                    <div id="modulo-invitar-amigos" class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Invitar a mis amigos a MySodexo</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form name="formInvitar" action="#" method="post">
+                                <div class="form-group">
+                                    <p><input name="emailAmigo" id="emailAmigo" type="email" placeholder="Email de mi amigo" class="form-control"></p>
+                                    <a href="#" id="" class="btn btn-level-2 btn-block invitarAmigo">Invitar</a>
+                                </div>
+                            </form>
+                            <p id="resultadoInvitacion"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    window.onload = function() {
+
+        //var hay_movimientos;
+        var panel_activo;
+
+        var idcard = 75297;
+        mostrarInfo(idcard);
+
+        function mostrarInfo(idcard) {
+            eval("window.hay_movimientos_" + idcard + "= 0");
+            //hay_movimientos = 0;
+            panel_activo = '1';
+            $j(".resumen").css('display','none');
+            $j(".info-status").css('display', 'none');
+            $j(".acciones").css('display','none');
+            $j("#resumen-" + idcard).css('display', 'block');
+            $j("#tarjetas-acciones-" + idcard).css('display', 'block');
+            // Buscamos movimientos
+            buscarMovimientos(idcard);
+        }
+
+        $j.datepicker.setDefaults(
+            $j.extend(
+                //{'dateFormat':'dd-mm-yy'},
+                $j.datepicker.regional['es']
+            )
+        );
+
+        $j(".datepicker" ).datepicker({
+            inline: true
+        });
+
+
+        $j(".card-status").bind('click', function(e) {
+
+            cardnumber = $j(this).data('cardnumber');
+
+            $j(".info-status").css('display', 'none');
+
+            switch ($j(this).attr('data-status')) {
+                case '99':   //alert('Estado: BLOQUEADA');
+                            $j("#" + cardnumber).children(".info-activate-1").slideDown();
+                            break;
+                case '10':    //alert('Estado: CREADA');
+                            $j("#" + cardnumber).children(".info-activate-2").slideDown();
+                            break;
+                case '30':    //alert('Estado: ACTIVA');
+                            $j("#" + cardnumber).children(".info-block").slideDown();
+                            break;
+            }
+
+            $j("input[name='motivo']").bind('click', function(e) {
+                motivo = $j(this).val();
+                $j(".motivo").css('display', 'none');
+                $j("#info-" + motivo + "-" + cardnumber).fadeIn();
+            });
+
+
+            $j("body").on( "click", ".confirm", function(e) {
+                if($j("input[name='confirm-" + $j(this).attr('data-type') + "-" + cardnumber + "']").is(':checked')) {
+                    bloque = $j(this).parent('p');
+                    bloque_html_original = $j(this).parent('p').html();
+                    bloque.html(loading);
+                    // marcamos evento en GA
+                    eventoGA('Tarjetas', 'click', $j(this).attr('data-ga'));
+                    status = $j(this).attr('data-type');
+                    $j.ajax({
+                        type: "POST",
+                        url: include_path + 'tarjetas_cambiar_estado.php',
+                        data: {status: status, cardnumber: $j(this).attr('data-cardnumber')},
+                        success: function (msg) {
+                            if(status == 'cancel' && msg == '-1') {
+                                // Popup error
+                                popupStatus = '<div class="panel panel-default" style="margin-bottom: 0;"><div class="panel-body"><h1>Ups! No ha sido posible realizar la cancelación de tu tarjeta</h1><h3>Te pedimos disculpas. Debido a un fallo técnico, tu solicitud no se realizado correctamente</h3><p>Por favor, solicita tu cancelación por escrito a <a href="mailto:cancelar.tarjeta.es@sodexo.com">cancelar.tarjeta.es@sodexo.com</a> indicando tu nombre y apellidos y tu DNI o NIE.</p><p>Muchas gracias</p></div></div>';
+                                $j.fancybox(
+                                    {
+                                        'content'			: popupStatus,
+                                        'transitionIn'		: 'fade',
+                                        'transitionOut'		: 'fade',
+                                        'autoScale'			: true,
+                                        'scrolling'			: 'no',
+                                        'centerOnScroll'	: true
+                                    }
+                                );
+
+                                bloque.html(bloque_html_original);
+
+                            }
+                            else {
+                                // TODO - Recargar y mostrar panel correspondiente a la tarjeta con idcard
+                                location.reload();
+                            }
+                        }
+                    });
+                }
+            });
+
+        });
+
+        // Ocultamos todos los paneles
+        $j(".tarjetas-panel").css('display','none');
+        $j(".control-paneles").bind('click', function(e) {
+            //$j(".tarjetas-panel").css('display','none');
+            cardnumber = $j(this).data('cardnumber');
+            // marcamos evento en GA
+            eventoGA('Tarjetas', 'click', $j(this).attr('data-ga'));
+            panel = $j(this).attr('data-panel-id');
+            $j("#tarjetas-panel-" + panel_activo + "-" + cardnumber).fadeOut(function() {
+                // Si estamos en movimientos, mostramos campos de búsqueda
+                if(panel == 1) $j("#tarjeta-busqueda-movimientos-" + cardnumber).css('display','block');
+                if(panel == 2) {
+                    if($j("#bpnetworks-" + cardnumber).length) cargaBPNetworks($j("#bpnetworks-" + cardnumber));
+                    if($j("#wallets-" + cardnumber).length) cargaWallets($j("#wallets-" + cardnumber));
+                }
+                $j("#tarjetas-panel-" + panel + '-' + cardnumber).fadeIn();
+                panel_activo = panel;
+            });
+        });
+
+
+        $j(".ver-movimientos-pendientes").bind('click', function(e) {
+            e.preventDefault();
+            // Vamos al panel de movimientos de la tarjeta correspondiente y mostramos los movimientos pendientes
+            $j(".control-paneles[data-cardnumber=" + $j(this).data('cardnumber') + "][data-panel-id=1]").click();
+            $j("#movimientos-pendientes-" + $j(this).data('idcard')).css('display','block');
+            $j('#main-content').animate({scrollTop: $j("#tarjetas-acciones-" + $j(this).data('idcard')).offset().top });
+        });
+
+
+        $j(".movimientos-mes").bind('click', function(e) {
+            $j("#fechaIni-" + $j(this).data('idcard')).val($j(this).attr('data-fecha-ini'));
+            $j("#fechaFin-" + $j(this).data('idcard')).val($j(this).attr('data-fecha-fin'));
+            // marcamos evento en GA
+            eventoGA('Tarjetas', 'click', $j(this).attr('data-ga'));
+            buscarMovimientos($j(this).data('idcard'));
+        });
+
+        $j(".buscar-movimientos").bind('click', function(e) {
+            if($j("#fechaIni-" + $j(this).data('idcard')).val() && $j("#fechaFin-" + $j(this).data('idcard')).val()) {
+                // marcamos evento en GA
+                eventoGA('Tarjetas', 'click', 'Buscar movimientos');
+            }
+            else {
+                // Búsqueda inicial (50 movimientos)
+                $j('input[name="num_movimientos"]').val('50');
+            }
+            buscarMovimientos($j(this).data('idcard'));
+        });
+
+        $j(".exportar-movimientos").bind('click', function(e) {
+            // marcamos evento en GA
+            eventoGA('Tarjetas', 'click', 'Exportar movimientos');
+            exportarMovimientos($j(this).data('idcard'));
+        });
+
+        function buscarMovimientos(idcard) {
+
+            $j("#resultadoMovimientos-" + idcard).html(loading);
+
+            $j.ajax({
+                type: "POST",
+                url: include_path + 'tarjetas_movimientos.php',
+                data: $j("#formMovimientos-" + idcard).serialize(), // Adjuntar los campos del formulario enviado.
+                success: function(data)
+                {
+                    if(data.length) {
+                        eval("window.hay_movimientos_" + idcard + "= 1");
+                        //hay_movimientos = 1;
+                        $j("#resultadoMovimientos-" + idcard).html(data);
+                    }
+                    else {
+                        eval("window.hay_movimientos_" + idcard + "= 0");
+                        //hay_movimientos = 0;
+                        $j("#resultadoMovimientos-" + idcard).html('<p>No hay movimientos.</p>');
+                    }
+
+                }
+            });
+        }
+
+        function exportarMovimientos(idcard) {
+            if(eval("window.hay_movimientos_" + idcard)) {
+                $j("#resultadoMovimientosExportar-" + idcard).val($j("#resultadoMovimientos-" + idcard).html());
+                $j("#formExportar-" + idcard).submit();
+            }
+            else {
+                alert('No hay movimientos para exportar.')
+            }
+        }
+
+        $j("body").on('click', '.detallar-movimiento', function(e) {
+            e.preventDefault();
+            idsettlement = $j(this).attr('data-idmov');
+            tr_detalle = $j("#tr-mov-" + idsettlement);
+
+            $j("#detalle-mov-" + idsettlement).slideToggle(function() {
+                // Mostramos formulario de detalle
+                $j("#formDetalle-" + idsettlement).slideDown();
+                if(tr_detalle.hasClass('detalle-activo')) {
+                    tr_detalle.removeClass('detalle-activo');
+                }
+                else {
+                    tr_detalle.addClass('detalle-activo');
+                }
+            });
+        });
+
+        $j(".select-tarjetas").bind('click', function() {
+            _gaq.push(['_trackPageview', dominio + 'mis-servicios-tarjetas/' + $j(this).attr("data-service") + '/' + $j(this).attr("data-idcard")]);
+            //document.location.href = dominio + 'mis-servicios-tarjetas/' + $j(this).attr("data-service") + '/' + $j(this).attr("data-idcard");
+            mostrarInfo($j(this).attr("data-idcard"));
+        });
+
+        $j("body").on('click', '.enviar-detalle-movimiento', function(e) {
+            idsettlement = $j(this).attr('data-idsettlement');
+            $j("#resultadoDetalle-" + idsettlement).html('<div class="panel">'+loading+'</div>');
+            $j.ajax({
+                type: "POST",
+                dataType: "json",
+                url: include_path + 'tarjetas_movimientos_detallar.php',
+                data: $j("#formDetalle-" + idsettlement).serialize(), // Adjuntar los campos del formulario enviado.
+                success: function(data)
+                {
+                    $j("#resultadoDetalle-" + idsettlement).html(data.mensaje);
+                    if(data.resultado == 1) {
+                        // Ok
+
+                        // Si todavía no habíamos incluido detalle para el movimiento...
+                        if($j("#tr-mov-" + idsettlement + " td:last a").html() != 'Modificar') {
+                            // incluimos el icon de check y cambiamos el texto del botón 'Detallar' por 'Modificar'
+                            img_check = '<img src="' + dominio + 'imgs/tarjetas/check-1.png" style="width:16px; margin:6px">';
+                            $j("#tr-mov-" + idsettlement + " td:last").prepend(img_check);
+                            $j("#tr-mov-" + idsettlement + " td:last a").html('Modificar');
+                        }
+
+                        // Ocultamos la capa de detalle
+                        $j("#formDetalle-" + idsettlement).delay(2500).slideUp('fast', function() {
+                            // Limpiamos el mensaje de resultado
+                            $j("resultadoDetalle-" + idsettlement).html('');
+                            // Ocultamos el td de detalle
+                            $j("#detalle-mov-" + idsettlement).hide();
+                        });
+                    }
+
+                }
+            });
+        });
+
+        $j(".exportar-gastos").on('click', function(e) {
+            if(eval("window.hay_movimientos_" + $j(this).data('idcard'))) {
+                $j("#formMovimientos-" + $j(this).data('idcard')).attr('method', 'post');
+                $j("input[name=tipo]").val($j(this).data('type'));
+                //$j("#formMovimientos").attr('target', '_blank');
+                $j("#formMovimientos-" + $j(this).data('idcard')).attr('action', include_path + 'tarjetas_movimientos_exportar.php');
+                $j("#formMovimientos-" + $j(this).data('idcard')).submit();
+            }
+            else {
+                alert('No hay movimientos para exportar.')
+            }
+        });
+
+        function cargaWallets(obj) {
+            var crypt = obj.data('crypt');
+            var cardnumber = obj.data('cardnumber');
+            $j("#wallets-" + obj.data('cardnumber')).html(loading);
+            $j.ajax({
+                data: {numcrypt: crypt},
+                type: "POST",
+                url: include_path + 'tarjetas_wallets.php',
+                //dataType: "html",
+                success: function(data)
+                {
+                    $j("#wallets-" + cardnumber).html(data);
+                }
+            });
+        }
+
+        function cargaBPNetworks(obj) {
+            var crypt = obj.data('crypt');
+            var profile = obj.data('profile');
+            var cardnumber = obj.data('cardnumber');
+            $j("#bpnetworks-" + obj.data('cardnumber')).append('<tr><td>' + loading + '</td></tr>');
+            $j.ajax({
+                data: {numcrypt: crypt, idprofile: profile },
+                type: "POST",
+                url: include_path + 'tarjetas_bpnetworks.php',
+                //dataType: "html",
+                success: function(data)
+                {
+                    $j("#bpnetworks-" + cardnumber).html(data);
+                }
+            });
+        }
+
+        /*
+        $j(".wallets").each(function( index ) {
+            cargaWallets($j(this));
+        });
+
+
+        $j(".bpnetworks").each(function( index ) {
+            cargaBPNetworks($j(this));
+        });
+        */
+
+    }
+
+</script>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 no-padding" id="footer-col-1">
+                    <ul class="list-inline">
+                        <li><strong>©Sodexo 2015</strong></li>
+                        <li><a href="http://www.sodexobeneficios.es/?utm_source=www.mysodexo.es/&amp;utm_medium=footer&amp;utm_term=corporativo&amp;utm_campaign=mas%2Binformacion" target="_blank">Corporativo</a></li>
+                        <li><a href="http://www.mysodexo.es/contacto">Contacto <span class="hidden-xs"> y sugerencias</span> </a></li>
+                        <li><a href="http://www.mysodexo.es/aviso-legal" id="aviso-legal">Aviso legal</a></li>
+                    </ul>
+                </div>
+                <div class="hidden-xs col-sm-2 text-right" id="footer-col-2"></div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- cookies -->
+<div id="cookies-layer" class="navbar navbar-default navbar-fixed-bottom">
+    <span class="close"><img src="http://www.mysodexo.es/imgs/close-black.png" alt="x"></span>
+    <p>Uso de cookies: Utilizamos cookies propias y de terceros para mejorar tu experiencia y nuestros servicios, analizando la navegación en nuestro sitio web, recordar detalles de inicio de sesión, proporcionar un inicio de sesión seguro, recopilar estadísticas para optimizar la funcionalidad del sitio y proporcionar contenidos a la medida de tus intereses. Si continuas navegando, consideramos que aceptas los <a href="aviso-legal">términos y condiciones de uso de MySodexo</a>.</p>
+</div>
+<script src="http://www.mysodexo.es/js/jquery-1.11.1.min.js"></script>
+<script src="http://www.mysodexo.es/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://www.mysodexo.es/js/ie10-viewport-bug-workaround.js"></script>
+<!-- MySdx -->
+<script src="http://www.mysodexo.es/js/fancybox/jquery.fancybox.pack.js"></script>
+<script src="http://www.mysodexo.es/js/validate.min.js?nocache=1"></script>
+<script src="http://www.mysodexo.es/js/functions.min.js?nocache=1"></script>
+<script src="http://www.mysodexo.es/js/ga.min.js"></script>
+<script src="http://www.mysodexo.es/js/restaurantes.min.js"></script>
+<script src="http://www.mysodexo.es/js/comercios.min.js"></script>
+<script src="http://www.mysodexo.es/js/jquery.nouislider.full.min.js"></script>
+<script src="http://www.mysodexo.es/js/jquery.simplePagination.min.js"></script>
+<script src="http://www.mysodexo.es/js/tooltip.min.js"></script>
+<script src="http://www.mysodexo.es/js/jquery.ocupload-1.1.2.min.js"></script>
+<script src="http://www.mysodexo.es/js/jquery-ui.min.js"></script>
+<script src="http://www.mysodexo.es/js/datepicker/datepicker-es.js"></script>
+<!-- addToHomescreen -->
+<script src="http://www.mysodexo.es/js/addtohomescreen.min.js"></script>
+<script>
+        // Aviso addToHomescreen
+        addToHomescreen({
+
+            /////// DEBUG
+            //debug: true,
+            //lifespan: 600,
+
+            skipFirstVisit: true,
+            maxDisplayCount: 1,
+            displayPace: 0
+
+        });
+        //////// DEBUG
+        //addToHomescreen.removeSession();
+    </script>
+<!-- Maps -->
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<!--<script src="http://maps.google.com/maps/api/js?key=AIzaSyAq2LXnUew-IQ5NVRIy6_c2tvt-ssGCK6o&sensor=true"></script>-->
+<script src="http://www.mysodexo.es/js/infobox.min.js"></script>
+<!-- Snap -->
+<script src="http://www.mysodexo.es/js/snap.min.js"></script>
+<script>
+        var snapper = new Snap({
+            element: document.getElementById('main-content'),
+            disable: 'right',
+            touchToDrag: true,
+            dragger: document.getElementById('menu-dragger')
+        });
+    </script>
+</body>
+</html>
