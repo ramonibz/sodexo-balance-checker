@@ -5,6 +5,7 @@ import com.rrius.http.parsers.SodexoCardDetailParser;
 import com.rrius.http.parsers.SodexoTransactionsParser;
 import com.rrius.model.SodexoCard;
 import com.rrius.model.Transaction;
+import com.rrius.notifications.Notification;
 import com.rrius.notifications.Notifier;
 import org.apache.commons.configuration2.Configuration;
 import org.apache.commons.configuration2.FileBasedConfiguration;
@@ -106,10 +107,20 @@ public class SodexoManager  implements Runnable{
       //update local data with server card info
       updateLocalCard(sodexoServerCard);
 
+      //Send notification with last transaction
+     sendNotification(sodexoServerCard);
     }
     this.logger.info("Process done.");
   }
 
+  public void sendNotification(SodexoCard sodexoCard) {
+    Notification notification = new Notification("Current balance: " + sodexoCard.getBalance(),
+        "Last transaction: " + sodexoCard.getLastTransaction().getDate() + " - "
+            + sodexoCard.getLastTransaction().getDescription() +  " - "
+            + sodexoCard.getLastTransaction().getValue());
+
+    this.notifier.sendNotification(notification, this.pushbulletAccessToken);
+  }
 
   public void login() {
     this.sodexoHttpClient.tryLogin(this.userName, this.password);

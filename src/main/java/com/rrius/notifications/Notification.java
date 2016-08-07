@@ -9,7 +9,7 @@ public class Notification {
   private String body;
   private String type = "note";
 
-  public Notification(String title, String body, int i) {
+  public Notification(String title, String body) {
     this.title = title;
     this.body = body;
   }
